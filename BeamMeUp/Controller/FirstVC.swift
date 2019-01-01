@@ -8,7 +8,7 @@
 
 import UIKit
 
-// 2. Comform to the declared protocol
+// 2. Conform to the declared protocol
 class FirstVC: UIViewController, CanReceive {
     
     @IBOutlet weak var label: UILabel!

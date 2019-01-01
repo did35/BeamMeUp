@@ -33,6 +33,7 @@ class SecondVC: UIViewController {
         // 5. 
         // The ? after delegate is called optional chaining, an alternative of optional binding.
         // What it does is if the delegate is not nil, it calls the receivedData() func, otherwise it ignores what is after the . syntax.
+        // The delegate in this case is the FirstVC (line 31 in the prepare(for segue:) method).
         delegate?.receivedData(data: textField.text)
         self.dismiss(animated: true, completion: nil)
     }
